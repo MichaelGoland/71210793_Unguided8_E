@@ -1,0 +1,24 @@
+a sebagai suku pertama
+n sebagai banyaknya suku
+un suku ke n
+b sebagai beda
+
+un = a + (n-1)b (rumus mencari suku ke 4)
+u4 = a + (n-1)b
+
+n input = suku ke
+r input = rasio
+a input = suku pertama
+
+if b dan a tidak sama dengan 0 
+un = a + (n-1)b
+tampilkan nilai suku ke n 
+
+else
+      tampilkan nilai adalah 0
+
+jumlah+=nilai;
+
+}
+
+  jumlah semua nilainya : " jumlah;
