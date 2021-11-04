@@ -1,0 +1,48 @@
+fibonacci deret
+
+1 1 2 3 5 8 13 ....
+kita buat looping
+
+Loop {
+   f(n) fibo ke n = f(n-1) + f(n-2) (n nya bakalan n++ (increment) bisa looping)
+   contoh f(3) = dengan rumus f (3-1) + f (3-2)
+           2   = 1 + 1
+
+}
+
+contoh aplikasiannya 
+<iostream>
+std;
+
+int main{}
+{
+ // f_n = f_n1 + f_n2 ( masukin dulu rumusnya )
+    
+   int n;
+   int f_n;
+   int f_n1;
+   int f_n2; 
+   
+ 
+  cout << "program deret fibonaci\n"; (untuk program namanya )
+   cout << "masukan nilai ke-n"; (memasukan nilai n misal n 8 berarti 8 deret )
+    cin >> n; ( biar konsisten masukan n)
+  
+  f_n1 = 1; (inisialisasi awalnya)
+  f_n2 = 0;
+  f_n = f_n1 + f_n2; (rumus nilai awal)
+  cout << f_n << " "; (untuk nilai awalnya)
+  for (int i =1; i< n; i++){  (bikin loopingnya)
+        f_n = f_n1 + f_n2; (rumusnya)
+        f_n2 = f_n1; (yang terakhir update dulu, biar terupdate)
+        f_n1 = f_n;
+        cout << f_n << " ";
+        
+  }
+   cout << "\n";
+  cin.get();
+  return 0;
+}
+
+RUN PROGRAM
+   
